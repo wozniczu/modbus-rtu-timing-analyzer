@@ -1,0 +1,24 @@
+# Task description (not published)
+*.pdf
+
+# Generated output
+*.csv
+stats_*.txt
+statystyki_*.txt
+histogram_*.png
+intervals_*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
