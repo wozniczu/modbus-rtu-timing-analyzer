@@ -33,3 +33,13 @@ python serial_timing_analyzer.py
 ```
 
 Both modes run one after the other.
+
+## Example histograms
+
+**Single-byte stream** (gaps between consecutive `write()` of the same byte):
+
+![Inter-write gap histogram](docs/example_histogram_single_byte.png)
+
+**Modbus frame batch** (mean µs per byte per full frame send):
+
+![Mean µs per byte per frame](docs/example_histogram_modbus_frame.png)
